@@ -1,0 +1,40 @@
+services:
+  flask:
+    build:
+      context: .
+      dockerfile: flask_dockerfile
+    container_name: flask_app
+    volumes:
+      - ./logs:/app/logs
+      - ./keys:/app/keys
+    environment:
+      - PRIVATE_KEY_PASSWORD=${PRIVATE_KEY_PASSWORD:-ChangeMeInProduction!}
+      - FLASK_ENV=production
+      - SECRET_KEY=${SECRET_KEY:-change-this-secret-key}
+    expose:
+      - "5000"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - app_network
+
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx_dockerfile
+    container_name: nginx_proxy
+    ports:
+      - "8080:80"
+      - "8443:443"
+    depends_on:
+      - flask
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
