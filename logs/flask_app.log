@@ -1,0 +1,130 @@
+2025-10-23 13:00:20,298 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+2025-10-23 13:00:20,298 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-10-23 13:00:20,300 INFO werkzeug MainThread :  * Restarting with stat
+2025-10-23 13:00:20,453 WARNING werkzeug MainThread :  * Debugger is active!
+2025-10-23 13:00:20,464 INFO werkzeug MainThread :  * Debugger PIN: 314-455-635
+2025-10-23 13:02:31,191 INFO werkzeug Thread-2 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:02:31] "GET / HTTP/1.0" 200 -
+2025-10-23 13:02:31,270 INFO werkzeug Thread-3 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:02:31] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+2025-10-23 13:02:33,660 INFO werkzeug Thread-4 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:02:33] "GET /sign HTTP/1.0" 200 -
+2025-10-23 13:02:41,716 INFO werkzeug Thread-5 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:02:41] "GET / HTTP/1.0" 200 -
+2025-10-23 13:04:06,409 INFO werkzeug Thread-6 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:04:06] "GET / HTTP/1.0" 200 -
+2025-10-23 13:04:43,179 INFO werkzeug Thread-7 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:04:43] "GET /sign HTTP/1.0" 200 -
+2025-10-23 13:06:31,961 INFO app Thread-8 (process_request_thread) : File my_secrets.txt signed with key -----BEGIN DSA PRIVATE KEY-----
+MIIBugIBAAKBgQDAsS8PzFOcI/Qc65rmM7DRmATBMP5I/A27WGylQmbm3zea1U9w
+ELWLfn7oRYje0vc9Nu4vH5CbbzQ7YGfR2mX8VYOlHguDzP+0T5ZfIP+YEn5vxwOS
+y2kZNgJdGSKpFfCcKcvfJxy/fD9FKzNW6lvaeer69rq3L3feBWFUZD3DbwIVANjs
+pRM5fAwPcOhhICqzSs3EsMrfAoGAZOdEiUgPinJKOfcH+sBWSnJn9QFVc+tG1IL6
+ICoiqgr8CsEVK5nEcjQWq4mRs4zfURZ7laiqiZzja03N+kuFwKl17elJQsuZtmX8
+UAXY4sD48aUo7L98po0IQHUOFGdTXFhXWyBZUULwCdWdp2NIbSo8tY+2rEiKtrgV
+lKxw5AkCgYAUZymzri7jj++6Y/Zdr9TXKBXnceSiiQ1uHaXbYkbj+XpgUplCH8Cq
+5r6EaUdzkC+0oytIpvtHSm8r92yjjLYFkKIBQ0/Bcq2dMIoAMxc8eK90OI6P4hPS
+q8dGAQ+0j+IJeEhV5gJvw1jOrcfcypoaI4mXoGgKzfEuIRVZ4ard/wIUCwbzJO24
+yMk6G0FeNHZZwtkOaNU=
+-----END DSA PRIVATE KEY-----
+
+2025-10-23 13:06:31,962 INFO werkzeug Thread-8 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:06:31] "POST /sign HTTP/1.0" 200 -
+2025-10-23 13:07:44,295 INFO app Thread-9 (process_request_thread) : File Wordlist.txt signed with key -----BEGIN DSA PRIVATE KEY-----
+MIIBugIBAAKBgQDAsS8PzFOcI/Qc65rmM7DRmATBMP5I/A27WGylQmbm3zea1U9w
+ELWLfn7oRYje0vc9Nu4vH5CbbzQ7YGfR2mX8VYOlHguDzP+0T5ZfIP+YEn5vxwOS
+y2kZNgJdGSKpFfCcKcvfJxy/fD9FKzNW6lvaeer69rq3L3feBWFUZD3DbwIVANjs
+pRM5fAwPcOhhICqzSs3EsMrfAoGAZOdEiUgPinJKOfcH+sBWSnJn9QFVc+tG1IL6
+ICoiqgr8CsEVK5nEcjQWq4mRs4zfURZ7laiqiZzja03N+kuFwKl17elJQsuZtmX8
+UAXY4sD48aUo7L98po0IQHUOFGdTXFhXWyBZUULwCdWdp2NIbSo8tY+2rEiKtrgV
+lKxw5AkCgYAUZymzri7jj++6Y/Zdr9TXKBXnceSiiQ1uHaXbYkbj+XpgUplCH8Cq
+5r6EaUdzkC+0oytIpvtHSm8r92yjjLYFkKIBQ0/Bcq2dMIoAMxc8eK90OI6P4hPS
+q8dGAQ+0j+IJeEhV5gJvw1jOrcfcypoaI4mXoGgKzfEuIRVZ4ard/wIUCwbzJO24
+yMk6G0FeNHZZwtkOaNU=
+-----END DSA PRIVATE KEY-----
+
+2025-10-23 13:07:44,296 INFO werkzeug Thread-9 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:07:44] "POST /sign HTTP/1.0" 200 -
+2025-10-23 13:13:27,450 INFO werkzeug Thread-10 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:13:27] "[33mGET /verify HTTP/1.0[0m" 404 -
+2025-10-23 13:13:32,686 INFO werkzeug Thread-11 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:13:32] "GET / HTTP/1.0" 200 -
+2025-10-23 13:23:52,327 INFO app Thread-12 (process_request_thread) : File test123 signed with key -----BEGIN DSA PRIVATE KEY-----
+MIIBugIBAAKBgQDAsS8PzFOcI/Qc65rmM7DRmATBMP5I/A27WGylQmbm3zea1U9w
+ELWLfn7oRYje0vc9Nu4vH5CbbzQ7YGfR2mX8VYOlHguDzP+0T5ZfIP+YEn5vxwOS
+y2kZNgJdGSKpFfCcKcvfJxy/fD9FKzNW6lvaeer69rq3L3feBWFUZD3DbwIVANjs
+pRM5fAwPcOhhICqzSs3EsMrfAoGAZOdEiUgPinJKOfcH+sBWSnJn9QFVc+tG1IL6
+ICoiqgr8CsEVK5nEcjQWq4mRs4zfURZ7laiqiZzja03N+kuFwKl17elJQsuZtmX8
+UAXY4sD48aUo7L98po0IQHUOFGdTXFhXWyBZUULwCdWdp2NIbSo8tY+2rEiKtrgV
+lKxw5AkCgYAUZymzri7jj++6Y/Zdr9TXKBXnceSiiQ1uHaXbYkbj+XpgUplCH8Cq
+5r6EaUdzkC+0oytIpvtHSm8r92yjjLYFkKIBQ0/Bcq2dMIoAMxc8eK90OI6P4hPS
+q8dGAQ+0j+IJeEhV5gJvw1jOrcfcypoaI4mXoGgKzfEuIRVZ4ard/wIUCwbzJO24
+yMk6G0FeNHZZwtkOaNU=
+-----END DSA PRIVATE KEY-----
+
+2025-10-23 13:23:52,328 INFO werkzeug Thread-12 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:23:52] "POST /sign HTTP/1.0" 200 -
+2025-10-23 13:25:49,273 INFO werkzeug Thread-13 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:25:49] "GET / HTTP/1.0" 200 -
+2025-10-23 13:25:51,731 INFO werkzeug Thread-14 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:25:51] "GET /sign HTTP/1.0" 200 -
+2025-10-23 13:41:21,384 INFO werkzeug Thread-15 (process_request_thread) : 172.19.0.3 - - [23/Oct/2025 13:41:21] "[33mGET /verify HTTP/1.0[0m" 404 -
+2025-11-06 13:22:44,871 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+2025-11-06 13:22:44,871 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-06 13:22:44,878 INFO werkzeug MainThread :  * Restarting with stat
+2025-11-06 13:22:45,154 WARNING werkzeug MainThread :  * Debugger is active!
+2025-11-06 13:22:45,160 INFO werkzeug MainThread :  * Debugger PIN: 117-981-693
+2025-11-06 13:23:03,146 INFO werkzeug Thread-2 (process_request_thread) : 172.19.0.3 - - [06/Nov/2025 13:23:03] "GET / HTTP/1.0" 200 -
+2025-11-06 13:23:09,571 INFO werkzeug Thread-3 (process_request_thread) : 172.19.0.3 - - [06/Nov/2025 13:23:09] "GET /sign HTTP/1.0" 200 -
+2025-11-06 13:23:33,886 INFO app Thread-4 (process_request_thread) : File test123 signed with key -----BEGIN DSA PRIVATE KEY-----
+MIIBuwIBAAKBgQC17sGqHNC1UjI1pykLPbNMasxcm2paLQu2Xo3mq7AQBh8ieuU1
+1Ui65X2CGBrYt+IX2SZJg+zPxehdAlaRVJaYz2vg79NmO7L0SDWoJaVCHSEUFvAK
+lm9ta5XIKskLmlSZYpGED6VPAeN+HWleC+loXmi/0Fum+jCZxSaymg2UjQIVAIQW
+S2WO1RsO5HNBxZ6fM1zI+gcTAoGBALEXPSg7cE1PwjiafZ0mF6PeRkKQIV0VB/Wf
+ltBjMuaBjp6Ra0+mctXLACL5/KM/6WHTyK9UUrFVhmVFkWm4J7anLWdaWE/8ykj9
+AWz34RqQLkxvHOnEtuwXbn1zCTmHYlykckAPMr4F+MaXYXnkoiy30rHnnn/x9Toj
+526HuHT+AoGAWsAmKp/BpXWV7J9plWJ795RpAxuUUUe4eMlZckZmH8GEKskWJayW
+j7EGVv+BOXypdboeIlIgieudyvP0GVqzk+RQAVfXdPIx/hkY7Acc7P8k95IO+m07
+kRWT1SX1vA+6NSgUrixmCQrFC9Sg2FMKsDYUWncOZZVrZhUUegmlILkCFCQGVUcg
+jnXyzYP0SHXvO8ZobjRg
+-----END DSA PRIVATE KEY-----
+
+2025-11-06 13:23:33,888 INFO werkzeug Thread-4 (process_request_thread) : 172.19.0.3 - - [06/Nov/2025 13:23:33] "POST /sign HTTP/1.0" 200 -
+2025-11-06 13:24:02,199 INFO werkzeug Thread-5 (process_request_thread) : 172.19.0.3 - - [06/Nov/2025 13:24:02] "GET / HTTP/1.0" 200 -
+2025-11-06 13:56:28,047 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+2025-11-06 13:56:28,048 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-06 13:56:28,051 INFO werkzeug MainThread :  * Restarting with stat
+2025-11-06 13:56:28,211 WARNING werkzeug MainThread :  * Debugger is active!
+2025-11-06 13:56:28,212 INFO werkzeug MainThread :  * Debugger PIN: 416-532-764
+2025-11-06 13:57:07,606 INFO werkzeug Thread-2 (process_request_thread) : 172.20.0.3 - - [06/Nov/2025 13:57:07] "GET / HTTP/1.0" 200 -
+2025-11-06 13:57:16,694 INFO werkzeug Thread-3 (process_request_thread) : 172.20.0.3 - - [06/Nov/2025 13:57:16] "GET /sign HTTP/1.0" 200 -
+2025-11-06 13:57:25,573 INFO app Thread-4 (process_request_thread) : File test123 signed with key -----BEGIN DSA PRIVATE KEY-----
+MIIBugIBAAKBgQCMQ5BAY+bLUyN1PGyb1dIFpiLdR9U+Usun5BLkxVWMXi6vGPEt
+3dU6UaYymWK8PfH/h9vVEJlGvkOW5DJrsqcaDC+zjJ/WPUmbSMEuIsQds1KzWkPA
+rdCXWwmii0KJYc4mD3moF7vAtn51Kx8vix3p606Z9fqBpf3EqjX7UZKAiwIVALUN
+THHATs14KxxBQLWPYOeYK5etAoGAK6gCBWRwvGbvyCNGtmn2O6R2tVW4Bki4hGGI
+/gr8AjXVSkiSX5RYD4fEXwcpEhS6OOpaKP9/z2JxhwAAiJly3AG74MTb5HF9C0Ak
+/wnX5J0hPFHP8FmawKY0e+dGdVjHMlFG4f+kLsAHjQgRam/oakbl0SnLJQfDZ0Dw
+SobyNLICgYBKzBhr+6JodL2PK3CA2LsIRcNAJKAt5FNrBNy7eVZQUgXCMwDmdl9H
+oQs9hXtOHGARDmqwCiomyTLiOO2aH8aPa3IFVemIJJDnaz5S0ifbZBerKvobfyPR
+TTu5R7SkEfh2cGTR0TC4y0ejAE+bGgwwCDU+zkGGbH2hvkoxOuKolAIUNxwfWgj0
+NlFoqwoHbIUpr8aeI0I=
+-----END DSA PRIVATE KEY-----
+
+2025-11-06 13:57:25,574 INFO werkzeug Thread-4 (process_request_thread) : 172.20.0.3 - - [06/Nov/2025 13:57:25] "POST /sign HTTP/1.0" 200 -
+2025-11-06 13:57:43,150 INFO werkzeug Thread-5 (process_request_thread) : 172.20.0.3 - - [06/Nov/2025 13:57:43] "GET / HTTP/1.0" 200 -
+2025-11-06 13:57:44,405 INFO werkzeug Thread-6 (process_request_thread) : 172.20.0.3 - - [06/Nov/2025 13:57:44] "GET /verify HTTP/1.0" 200 -
+2025-11-06 13:58:01,016 INFO werkzeug Thread-7 (process_request_thread) : 172.20.0.3 - - [06/Nov/2025 13:58:01] "POST /verify HTTP/1.0" 200 -
+2025-11-06 14:13:14,420 INFO werkzeug Thread-8 (process_request_thread) : 172.20.0.3 - - [06/Nov/2025 14:13:14] "GET / HTTP/1.0" 200 -
+2025-11-25 18:27:34,126 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-11-25 18:27:34,126 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-25 18:27:34,131 INFO werkzeug MainThread :  * Restarting with stat
+2025-11-25 18:27:34,414 WARNING werkzeug MainThread :  * Debugger is active!
+2025-11-25 18:27:34,418 INFO werkzeug MainThread :  * Debugger PIN: 720-531-050
+2025-11-25 18:43:30,256 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+2025-11-25 18:43:30,256 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-25 18:43:30,259 INFO werkzeug MainThread :  * Restarting with stat
+2025-11-25 18:43:30,420 WARNING werkzeug MainThread :  * Debugger is active!
+2025-11-25 18:43:30,421 INFO werkzeug MainThread :  * Debugger PIN: 116-110-009
