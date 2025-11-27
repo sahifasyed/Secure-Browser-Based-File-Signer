@@ -1,0 +1,19 @@
+
+services:
+  flask:
+    build:
+      context: .
+      dockerfile: flask_dockerfile
+    volumes:
+      - ./logs:/app/logs
+    expose:
+      - "5000"
+
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx_dockerfile
+    ports:
+      - "443:443"
+    depends_on:
+      - flask
