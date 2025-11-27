@@ -1,0 +1,17 @@
+# Use the provided image - Complete with pre-required libs
+
+FROM majidockerid/uwe:application2
+
+RUN mkdir /app
+
+WORKDIR /app
+
+COPY templates /app/templates
+
+COPY flask_app.py /app/app.py
+
+RUN mkdir -p /app/logs
+
+EXPOSE 5000
+
+CMD ["python", "app.py"]
